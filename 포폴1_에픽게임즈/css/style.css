@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+* {
+    margin:0 auto;
+    padding:0;
+    color:#333;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    
+}
+div.wrap {
+    height:1840px;
+    width:100%;
+    float: left;
+    position:relative;
+}
+header {
+    width:100%;
+    height:170px;
+    background-color: #202020;
+    float: left;
+}
+div.top {
+    width:100%;
+    height: 80px;
+    background-color: #202020;
+    float: left;
+}
+    div.logo {
+    width:300px;
+    height:100%;
+    background-color: #202020;
+    display:block;
+    float: left;
+    }
+        div.logobanner {
+            width:50%;
+            height:100%;
+            background:#202020;
+            float: left;
+        }
+        div.store {
+            color:#fff;
+            font-size: 30px;
+            margin-top: 30px;
+        } 
+        div.store a {
+            color:#fff;
+        }
+        div.logoimg {
+            width:50%;
+            height:100%;
+            background-color: #202020;
+            float: left;
+        }
+    div.localsetting {
+        width:150px;
+        height:100%;
+        background-color: #202020;
+        float:right;
+        display: flex;
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    a.mi > img {
+        max-width: 33%;
+        width:33px;
+        height: 33px;
+        float: left;
+        margin-left: 78%;
+        margin-top: 40px;
+    }
+    div.localsetting a {
+        color:#202020;
+        background: #92adf8;
+        display:block;
+        border-radius: 8px;
+        width:110px;
+        height:36px;
+        float:right;
+        text-align: center;
+        line-height: 33px;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+div.banner {
+    float: left;
+    background-color: #202020;
+    width:100%;
+    height:300px;
+    
+    
+}
+div.triple {
+    width:80%;
+    height:100%;
+    max-width:80%;
+}
+div.triple > img {
+    max-width:33%;
+    width:90%;
+    height:auto;
+    padding-left:2%;
+    float: left;
+    padding-top: 2%;
+    border-radius: 8px 8px 8px 8px;
+    display:block;
+}
+
+
+footer {
+    float: left;
+    width:100%;
+    height:570px;
+    background-color:#3b3b3b;
+}
+div.main {
+    width:100%;
+    height:800px;
+    float: left;
+    background-color: #202020;
+    color:#fff;
+    overflow: hidden;
+}
+div.box1 {
+    width:70%;
+    height:auto;
+    max-width: 70%;
+    margin-top: 50px;
+}
+div.box1 > img {
+    max-width:70%;
+    width:50%;
+    height:auto;
+    max-height: 70%;
+    position:absolute;
+    left:20%;
+    overflow: hidden;
+}
+div.box1 > img.sc1 {
+    animation:se1 10s infinite;
+
+}
+div.box1 > img.sc2 {
+    animation:se2 10s infinite;
+}
+div.box1 > img.sc3 {
+    animation:se3 10s infinite;
+}
+div.sns {
+    float: left;
+    width:100%;
+    height:80px;
+    background-color:#3b3b3b;
+    margin-left: 20px;
+}
+div.sns > img {
+    max-width: 50px;
+    width:50px;
+    height:auto;
+    margin-top:15px;
+    margin-left: 5px;
+}
+div.resorce {
+    float: left;
+    width:100%;
+    height:100px;
+    background-color:#3b3b3b;
+    padding:12px;
+    
+}
+div.resorce p {
+    color:#8b8b8b;
+}
+
+div.resorce > a {
+    margin:5px;
+    margin-left: 20px;
+    color:#eeeeee;
+}
+
+div.resorce > a:hover {
+    color:#8bb1f7;
+}
+div.MBEG {
+    float: left;
+    width:100%;
+    height:120px;
+    background-color:#3b3b3b;
+    padding:12px;
+    
+}
+div.MBEG p{
+    
+    color:#8b8b8b;
+}
+div.MBEG > a {
+    margin:5px;
+    margin-left: 20px;
+    color:#eee;
+}
+
+div.MBEG > a:hover {
+    color:#8bb1f7;
+}
+div.famousgames {
+    float: left;
+    width:100%;
+    height:160px;
+    background-color:#3b3b3b;
+}
+div.manual {
+    float: left;
+    width:100%;
+    height:200px;
+    background-color:#3b3b3b;
+}
+div.tb {
+    width:50%;
+    height:auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+div.tb p {
+    
+    font-size: 14px;
+    color:#ddd;
+}
+div.policy {
+    float: left;
+    width:100%;
+    height:60px;
+    background-color:#3b3b3b;
+}
+div.policy a {
+    float: left;
+    margin-left: 20px;
+    font-size: 18px;
+    color:#eee;
+
+}
+div.policy a:hover {
+    color:#7673ff; 
+}
+
+
+
+
+
+@keyframes se1 {
+    0% {opacity: 1}
+   23% {opacity: 1}
+   33% {opacity: 0}
+   90% {opacity: 0}
+  100% {opacity: 1}
+}
+@keyframes se2 {
+    0% {opacity: 0}
+   23% {opacity: 0}
+   33% {opacity: 1}
+   56% {opacity: 1;}
+   66% {opacity: 0;}
+   90% {opacity: 0}
+  100% {opacity: 0}
+}
+@keyframes se3 {
+    0% {opacity: 0}
+   23% {opacity: 0}
+   33% {opacity: 0}
+   56% {opacity: 0;}
+   66% {opacity: 1;}
+   90% {opacity: 1}
+  100% {opacity: 0}
+}
